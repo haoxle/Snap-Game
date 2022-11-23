@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c76fce9-467b-47a7-9018-f0cb7ee1ec68" name="Changes" comment="project creation">
+    <list default="true" id="9c76fce9-467b-47a7-9018-f0cb7ee1ec68" name="Changes" comment="class Card creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Card.java" afterDir="false" />
     </list>
@@ -70,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669214955773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="class Card creation">
+      <created>1669215804180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669215804180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="project creation" />
+    <MESSAGE value="class Card creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="class Card creation" />
   </component>
 </project>
