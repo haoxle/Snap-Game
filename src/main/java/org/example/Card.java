@@ -1,29 +1,35 @@
 package org.example;
 
 public class Card {
-    public static String[] suit = {"Clubs", "Diamonds", "Hearts", "Spades"};
-    public static String[] symbol = {
-            null, "Ace", "2", "3", "4", "5", "6", "7",
-            "8", "9", "10", "Jack", "Queen", "King"};
-    public static int[] value = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
 
 
-    public Card(String[] suit, String[] symbol, int[] value) {
-        this.suit = suit;
-        this.symbol = symbol;
-        this.value = value;
+    private String symbols;
+//    private int values;
+    private char suits;
+
+    private int values;
+
+    public Card(char suits, String symbols, int values) {
+        this.suits = suits;
+        this.symbols = symbols;
+        this.values = values;
     }
 
-    public int[] getValue() {
-        return value;
+//    public int getValue() {
+//        return values;
+//    }
+
+    public String getSymbol() {
+        return symbols;
     }
 
-    public String[] getSymbol() {
-        return symbol;
+    public char getSuit() {
+        return suits;
     }
 
-    public String[] getSuit() {
-        return suit;
+    @Override
+    public String toString() {
+        return (symbols+suits);
     }
 
 }
