@@ -5,25 +5,25 @@ public class Card {
 
     private String symbols;
 //    private int values;
-    private char suits;
+    private String suits;
 
     private int values;
 
-    public Card(char suits, String symbols, int values) {
+    public Card(String suits, String symbols, int values) {
         this.suits = suits;
         this.symbols = symbols;
         this.values = values;
     }
 
-//    public int getValue() {
-//        return values;
-//    }
+    public int getValue() {
+        return values;
+    }
 
     public String getSymbol() {
         return symbols;
     }
 
-    public char getSuit() {
+    public String getSuit() {
         return suits;
     }
 
