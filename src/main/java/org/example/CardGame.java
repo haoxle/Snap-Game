@@ -9,7 +9,7 @@ public class CardGame {
     private final String[] suits = new String[]{String.valueOf('\u2764'),String.valueOf('\u2660'), String.valueOf('\u2666') , String.valueOf('\u2663')};
     private final int[] values = new int[]{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
     public ArrayList<Card> deck = new ArrayList<>();
-
+    public ArrayList<Card> discardDeck = new ArrayList<>();
 
     public CardGame() {
         for (int i = 0; i < suits.length; i++) {
@@ -23,6 +23,9 @@ public class CardGame {
 
 
     public Card dealCard() {
+        Card drawn = deck.get(0);
+        deck.remove(drawn);
+        discardDeck.add(drawn);
         return this.deck.get(0);
     }
 
@@ -32,7 +35,7 @@ public class CardGame {
     }
 
     public  ArrayList<Card> sortDeckBySuits() {
-        Collections.sort(deck, (o1, o2) -> Integer.compare(o1.getSuit(), o2.getSuit()));
+        Collections.sort(deck, (o1, o2) -> CharSequence.compare(o1.getSuit(), o2.getSuit()));
         return deck;
     }
 
