@@ -19,7 +19,7 @@ public class Snap extends CardGame{
                 System.out.println(deck.toString());
                 System.out.println(discardDeck.toString());
             }
-            if (discardDeck.size() == discardDeck.size() - 1){
+            if (discardDeck.size() > 2 && discardDeck.get(discardDeck.size() -1).getValue() == discardDeck.get(discardDeck.size() - 2).getValue()){
                 System.out.println("you win hoe");
                 scanner.close();
             }
