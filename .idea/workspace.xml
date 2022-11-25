@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c76fce9-467b-47a7-9018-f0cb7ee1ec68" name="Changes" comment="added players and snap functionality, requires a timer.">
+    <list default="true" id="9c76fce9-467b-47a7-9018-f0cb7ee1ec68" name="Changes" comment="timer added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Snap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669381360619</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="timer added">
+      <created>1669393039512</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669393039512</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +190,7 @@
     <MESSAGE value="need to add winning condition stage 3" />
     <MESSAGE value="winning condition is added" />
     <MESSAGE value="added players and snap functionality, requires a timer." />
-    <option name="LAST_COMMIT_MESSAGE" value="added players and snap functionality, requires a timer." />
+    <MESSAGE value="timer added" />
+    <option name="LAST_COMMIT_MESSAGE" value="timer added" />
   </component>
 </project>

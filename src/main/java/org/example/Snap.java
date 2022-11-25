@@ -39,6 +39,9 @@ public class Snap extends CardGame {
                     System.out.println("SNAP!!!");
                     System.out.println("You win " + players.playerTwo);
                     System.exit(0);
+                } else if (reactionTime > 2000){
+                    System.out.println("you lose " + players.playerTwo);
+                    System.exit(0);
                 }
             }
             if (discardDeck.size() > 1 && discardDeck.get(discardDeck.size() - 1).getValue() == discardDeck.get(discardDeck.size() - 2).getValue() && discardDeck.size() % 2 == 0) {
@@ -51,26 +54,15 @@ public class Snap extends CardGame {
                     System.out.println("SNAP!!!");
                     System.out.println("You win " + players.playerTwo);
                     System.exit(0);
+                }else if (reactionTime > 2000) {
+                    System.out.println("you lose "+ players.playerTwo);
+                    System.exit(0);
                 }
             }
             if (deck.size() == 0) {
                 System.out.println("Draw!");
             System.exit(0);
             }
-
-
-//            if (discardDeck.size() > 1 && discardDeck.get(discardDeck.size() - 1).getValue() == discardDeck.get(discardDeck.size() - 2).getValue() && discardDeck.size() % 2 == 1 && input1.equals("snap")) {
-//                System.out.println(players.playerOne + " won!!!");
-//                System.exit(0);
-//            }
-//            if (discardDeck.size() > 1 && discardDeck.get(discardDeck.size() - 1).getValue() == discardDeck.get(discardDeck.size() - 2).getValue() && discardDeck.size() % 2 == 0 && input1.equals("snap")) {
-//                System.out.println(players.playerTwo + " won!!!");
-//                System.exit(0);
-//            }
-//            if (deck.size() == 0) {
-//                System.out.println("Draw!");
-//                System.exit(0);
-//            }
         }
     }
 
