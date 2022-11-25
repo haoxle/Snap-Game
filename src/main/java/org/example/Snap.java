@@ -35,11 +35,11 @@ public class Snap extends CardGame {
                 String snap = scanner.next();
                 long stopTime = System.currentTimeMillis();
                 long reactionTime = stopTime - startTime;
-                if (snap.equals("snap") && reactionTime < 2000) {
+                if (snap.equals("snap") && reactionTime < 4000) {
                     System.out.println("SNAP!!!");
                     System.out.println("You win " + players.playerTwo);
                     System.exit(0);
-                } else if (reactionTime > 2000){
+                } else if (reactionTime > 4000){
                     System.out.println("you lose " + players.playerTwo);
                     System.exit(0);
                 }
@@ -50,11 +50,11 @@ public class Snap extends CardGame {
                 String snap = scanner.next();
                 long stopTime = System.currentTimeMillis();
                 long reactionTime = stopTime - startTime;
-                if (snap.equals("snap") && reactionTime < 2000) {
+                if (snap.equals("snap") && reactionTime < 4000) {
                     System.out.println("SNAP!!!");
                     System.out.println("You win " + players.playerTwo);
                     System.exit(0);
-                }else if (reactionTime > 2000) {
+                }else if (reactionTime > 4000) {
                     System.out.println("you lose "+ players.playerTwo);
                     System.exit(0);
                 }
@@ -66,9 +66,5 @@ public class Snap extends CardGame {
         }
     }
 
-    public static void main(String[] args) {
-        Snap snap = new Snap();
-        snap.playSnap();
-    }
 
 }
