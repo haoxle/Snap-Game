@@ -26,7 +26,7 @@ public class CardGame {
         Card drawn = deck.get(0);
         deck.remove(drawn);
         discardDeck.add(drawn);
-        return this.deck.get(0);
+        return drawn;
     }
 
     public  ArrayList<Card> sortDeckByNumber() {
