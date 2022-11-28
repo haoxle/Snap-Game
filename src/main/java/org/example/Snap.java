@@ -7,7 +7,7 @@ public class Snap extends CardGame {
 
 
     public void playSnap() {
-
+        System.out.println("Welcome to Snap!" + "\n" + "Instructions: Each player will take their turn by pressing enter, when the card number matches, enter the word 'snap'." + "\n" + "If the player enters snap before the 4 second timer, they win, otherwise they lose." + "\n");
         System.out.println("Player One, enter your name:");
         String nameOne = scanner.nextLine();
         System.out.println("Player Two, enter your name:");
@@ -39,7 +39,7 @@ public class Snap extends CardGame {
                     System.out.println("SNAP!!!");
                     System.out.println("You win " + players.playerTwo);
                     System.exit(0);
-                } else if (reactionTime > 4000){
+                } else if (reactionTime > 4000) {
                     System.out.println("you lose " + players.playerTwo);
                     System.exit(0);
                 }
@@ -54,14 +54,14 @@ public class Snap extends CardGame {
                     System.out.println("SNAP!!!");
                     System.out.println("You win " + players.playerTwo);
                     System.exit(0);
-                }else if (reactionTime > 4000) {
-                    System.out.println("you lose "+ players.playerTwo);
+                } else if (reactionTime > 4000) {
+                    System.out.println("you lose " + players.playerTwo);
                     System.exit(0);
                 }
             }
             if (deck.size() == 0) {
                 System.out.println("Draw!");
-            System.exit(0);
+                System.exit(0);
             }
         }
     }

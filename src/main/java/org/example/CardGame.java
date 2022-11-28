@@ -18,7 +18,6 @@ public class CardGame {
                 deck.add(card);
             }
         }
-        System.out.println(deck);
     }
 
 
@@ -44,11 +43,11 @@ public class CardGame {
         return deck;
     }
 
-    public static void main(String[] args) {
-        CardGame cards = new CardGame();
-        System.out.println(cards.dealCard());
-        System.out.println(cards.sortDeckByNumber());
-        System.out.println(cards.sortDeckBySuits());
-        System.out.println(cards.shuffleDeck());
-    }
+//    public static void main(String[] args) {
+//        CardGame cards = new CardGame();
+//        System.out.println(cards.dealCard());
+//        System.out.println(cards.sortDeckByNumber());
+//        System.out.println(cards.sortDeckBySuits());
+//        System.out.println(cards.shuffleDeck());
+//    }
 }
