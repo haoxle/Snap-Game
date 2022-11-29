@@ -9,7 +9,7 @@ The game works with no issues detected so far.
 
 
 ## Features
-- Dispolay cards that have been drawn
+- Display cards that have been drawn
 - Show which player has taken their turn
 - Timer implemented for the user to enter Snap
 
